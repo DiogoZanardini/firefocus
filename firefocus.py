@@ -29,8 +29,7 @@ m_start_index = meses.index(m_start)
 m_end   = col2.selectbox('Mes final:', meses[m_start_index+1:], index=0)
 
 
-
-btn1 = st.button('REALISAR PREVISÃO')
+btn1 = st.button('REALIZAR PREVISÃO')
 btn2 = st.button('LIMPAR')
 
 if btn1:
