@@ -1,9 +1,11 @@
+
+
 import streamlit as st
 from PIL import Image
 import pandas as pd
-#import seaborn as sns
+import seaborn as sns
 import matplotlib.pyplot as plt
-#plt.style.use('seaborn')
+plt.style.use('seaborn')
 import statsmodels.api as sm
 
 
