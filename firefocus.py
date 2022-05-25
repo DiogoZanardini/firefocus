@@ -17,8 +17,9 @@ results = model.fit()
 
 col1, col2 = st.columns(2)
 image = Image.open('img/logo.jpg')
-col1.image(image, width= 150,caption='FIRE FOCUS PREDICTER V1.0.0 @2022')
-col2.title("Previsão de incendios")
+col1.image(image, width= 70,caption='FFP v1.0.0')
+image = Image.open('img/title.jpg')
+col2.image(image)
 st.markdown("Este é um Data App utilizado para exibir a solução de Inteligencia artificial para analise de possíveis focos de incêndio no Brasil. Este modelo preditivo está calibrado para aferir previsões aceitaveis até o mes de dezembro de 2022 ")
 st.markdown("Para visualizar as previsões, selecione o período:")
 
