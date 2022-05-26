@@ -25,7 +25,7 @@ col1.image(image, width= 70,caption='FFP v1.0.0')
 image = Image.open('img/title.jpg')
 col2.image(image)
 col2.markdown("Este é um Data App utilizado para exibir a solução de Inteligencia artificial para analise de possíveis focos de incêndio no Brasil. Este modelo preditivo está calibrado para aferir previsões aceitaveis até o mes de dezembro de 2022 ")
-st.subheader("Para selecionar os período, deslise os botões abaixo:")
+st.subheader("Para selecionar o período, deslise os botões abaixo:")
 
 m_start, m_end = st.select_slider('',options=meses, value=('Maio','Dezembro'))
 m_start_num    = meses.index(m_start)+52
